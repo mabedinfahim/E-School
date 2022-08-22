@@ -12,8 +12,8 @@ header{
     background: #F0FFF0;
 }
 
-.header_section{
-    width: 1200px;
+.container{
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -27,4 +27,89 @@ header{
 
 .align-center{
     align-items:center;
+}
+
+.header_section{
+    padding:30px 0px;
+}
+
+.header_section img{
+    width: 100px;
+}
+
+.menu{
+  list-style: none;  
+}
+
+.menu li{
+    padding:0px 25px;
+}
+
+.menu li a{
+    color:  #000000;
+    text-decoration: none;
+}
+
+.banner_section{
+    width: 100%;
+    background: #F0FFF0;
+    padding-bottom: 50px;
+}
+
+.banner_section .left_content,.right_content{
+    width: 50%;
+}
+
+
+.banner_section .left_content .learn{
+    color:red;
+    font-size:16px;
+    padding: 10px 0px;
+}
+
+.banner_section .left_content h1{
+    width: 380px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 19px;
+}
+
+.banner_section .left_content h1 span{
+    color:#21B573;
+}
+
+.banner_section .left_content p{
+    width:328px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 19px;
+    padding-bottom:14px;
+}
+
+
+.btn{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    box-sizing: border-box;
+    padding: 12px 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 153px;
+    height: 43px;
+    background: #21B573;
+    color: #FFFFFF;
+    border:none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 33px;
 }
