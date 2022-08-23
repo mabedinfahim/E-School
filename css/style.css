@@ -284,4 +284,48 @@ header{
 }
 
 
+.footer_section{
+    background: #282531;
+    padding-top: 55px;
+}
+
+.col-6{
+    width: 366px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+
+.col-2{
+    color: #FFFFFF;
+}
+
+.col-2 ul{
+    list-style: none;
+}
+
+.col-2 ul li{
+    padding:5px 0px;
+}
+
+.col-2 ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.copyright{
+    text-align: center;
+    padding-top: 76px;
+    padding-bottom:27px;
+    color:#fff;
+}
+
+
+
 
