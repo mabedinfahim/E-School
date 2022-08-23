@@ -249,6 +249,38 @@ header{
 
 .date_seat i{
     padding-right:10px;
+    color: #585859;
+}
+
+.testimonial_section{
+    margin-bottom: 127px;
+}
+
+.testimonial_section h2{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom:76px;
+}
+
+.testimonial_section .container img{
+    width: 120px;
+    height: 120px;
+}
+
+.testimonial_section .container p{
+    width: 620px;
+    height: 90px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    padding-left: 50px;
 }
 
 
